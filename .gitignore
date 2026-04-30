@@ -16,6 +16,11 @@ build/
 *.aab
 *.ipa
 
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
 # IDE
 .vscode/
 .idea/
@@ -76,3 +81,6 @@ logs/
 
 # Uploads
 uploads/
+
+# CI/CD
+.github/secrets/
