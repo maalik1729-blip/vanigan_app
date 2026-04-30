@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Vanigan",
+    "slug": "vanigan-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#4CAF50"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vanigan.app"
+    },
+    "android": {
+      "package": "com.vanigan.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c19bb3b9-49ed-415f-9e3b-eaa874d5eb7f"
+      },
+      "apiUrl": "https://vanigan-app.onrender.com/api"
+    }
+  }
+}
